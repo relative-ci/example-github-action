@@ -1,6 +1,6 @@
 # example-github-action
 
-[![Push](https://github.com/relative-ci/example-github-action/actions/workflows/push.yaml/badge.svg)](https://github.com/relative-ci/example-github-action/actions/workflows/push.yaml)
+[![Build](https://github.com/relative-ci/example-github-action/actions/workflows/build.yaml/badge.svg)](https://github.com/relative-ci/example-github-action/actions/workflows/build.yaml)
 [![RelativeCI](https://badges.relative-ci.com/badges/WlBer9l4ubfYdd628kB6?branch=master)](https://app.relative-ci.com/projects/WlBer9l4ubfYdd628kB6)
 
 > [@relative-ci/agent](https://github.com/relative-ci/agent) [Github Action](https://github.com/features/actions) example
