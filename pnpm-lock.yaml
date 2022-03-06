@@ -9,7 +9,7 @@ specifiers:
   autoprefixer: 10.4.2
   babel-loader: 8.2.3
   copy-webpack-plugin: 10.2.4
-  css-loader: 6.6.0
+  css-loader: 6.7.0
   cssnano: 5.0.17
   file-loader: 6.2.0
   html-webpack-plugin: 5.5.0
@@ -35,7 +35,7 @@ devDependencies:
   autoprefixer: 10.4.2_postcss@8.4.7
   babel-loader: 8.2.3_9351ded4f79a023849d74b5df047d562
   copy-webpack-plugin: 10.2.4_webpack@5.69.1
-  css-loader: 6.6.0_webpack@5.69.1
+  css-loader: 6.7.0_webpack@5.69.1
   cssnano: 5.0.17_postcss@8.4.7
   file-loader: 6.2.0_webpack@5.69.1
   html-webpack-plugin: 5.5.0_webpack@5.69.1
@@ -2411,8 +2411,8 @@ packages:
       timsort: 0.3.0
     dev: true
 
-  /css-loader/6.6.0_webpack@5.69.1:
-    resolution: {integrity: sha512-FK7H2lisOixPT406s5gZM1S3l8GrfhEBT3ZiL2UX1Ng1XWs0y2GPllz/OTyvbaHe12VgQrIXIzuEGVlbUhodqg==}
+  /css-loader/6.7.0_webpack@5.69.1:
+    resolution: {integrity: sha512-S7HCfCiDHLA+VXKqdZwyRZgoO0R9BnKDnVIoHMq5grl3N86zAu7MB+FBWHr5xOJC8SmvpTLha/2NpfFkFEN/ig==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
@@ -4124,7 +4124,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0_postcss@8.4.7
       postcss: 8.4.7
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -4135,7 +4135,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.7
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.9
     dev: true
 
   /postcss-modules-values/4.0.0_postcss@8.4.7:
@@ -4269,14 +4269,6 @@ packages:
     dependencies:
       postcss: 8.4.7
       postcss-value-parser: 4.2.0
-    dev: true
-
-  /postcss-selector-parser/6.0.6:
-    resolution: {integrity: sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==}
-    engines: {node: '>=4'}
-    dependencies:
-      cssesc: 3.0.0
-      util-deprecate: 1.0.2
     dev: true
 
   /postcss-selector-parser/6.0.9:
