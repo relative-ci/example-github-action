@@ -10,7 +10,7 @@ specifiers:
   babel-loader: 8.2.3
   copy-webpack-plugin: 10.2.4
   css-loader: 6.7.1
-  cssnano: 5.1.3
+  cssnano: 5.1.4
   file-loader: 6.2.0
   html-webpack-plugin: 5.5.0
   mini-css-extract-plugin: 1.0.0
@@ -36,7 +36,7 @@ devDependencies:
   babel-loader: 8.2.3_ed870ac3ba52c4ec230ba2bc3dbb311c
   copy-webpack-plugin: 10.2.4_webpack@5.70.0
   css-loader: 6.7.1_webpack@5.70.0
-  cssnano: 5.1.3_postcss@8.4.8
+  cssnano: 5.1.4_postcss@8.4.8
   file-loader: 6.2.0_webpack@5.70.0
   html-webpack-plugin: 5.5.0_webpack@5.70.0
   mini-css-extract-plugin: 1.0.0_webpack@5.70.0
@@ -2504,8 +2504,8 @@ packages:
       postcss: 8.4.8
     dev: true
 
-  /cssnano/5.1.3_postcss@8.4.8:
-    resolution: {integrity: sha512-bdf+sY2w4XV+F5LOCEd7fWnSeMeKBO4lKgoAKVWZOSTR7CmWEk1UW/s9ibTMMnsTsinBmIdgZs755sAGa1eoXQ==}
+  /cssnano/5.1.4_postcss@8.4.8:
+    resolution: {integrity: sha512-hbfhVZreEPyzl+NbvRsjNo54JOX80b+j6nqG2biLVLaZHJEiqGyMh4xDGHtwhUKd5p59mj2GlDqlUBwJUuIu5A==}
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
