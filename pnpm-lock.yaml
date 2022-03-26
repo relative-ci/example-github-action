@@ -7,7 +7,7 @@ specifiers:
   '@svgr/webpack': 6.2.1
   antd: ^4.6.5
   autoprefixer: 10.4.4
-  babel-loader: 8.2.3
+  babel-loader: 8.2.4
   copy-webpack-plugin: 10.2.4
   css-loader: 6.7.1
   cssnano: 5.1.4
@@ -33,7 +33,7 @@ devDependencies:
   '@babel/preset-react': 7.16.7_@babel+core@7.17.8
   '@svgr/webpack': 6.2.1
   autoprefixer: 10.4.4_postcss@8.4.12
-  babel-loader: 8.2.3_fa907c5a4f16ccc493e21649ccc59574
+  babel-loader: 8.2.4_fa907c5a4f16ccc493e21649ccc59574
   copy-webpack-plugin: 10.2.4_webpack@5.70.0
   css-loader: 6.7.1_webpack@5.70.0
   cssnano: 5.1.4_postcss@8.4.12
@@ -2031,8 +2031,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader/8.2.3_fa907c5a4f16ccc493e21649ccc59574:
-    resolution: {integrity: sha512-n4Zeta8NC3QAsuyiizu0GkmRcQ6clkV9WFUnUf1iXP//IeSKbWjofW3UHyZVwlOB4y039YQKefawyTn64Zwbuw==}
+  /babel-loader/8.2.4_fa907c5a4f16ccc493e21649ccc59574:
+    resolution: {integrity: sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==}
     engines: {node: '>= 8.9'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -2040,7 +2040,7 @@ packages:
     dependencies:
       '@babel/core': 7.17.8
       find-cache-dir: 3.3.2
-      loader-utils: 1.4.0
+      loader-utils: 2.0.0
       make-dir: 3.1.0
       schema-utils: 2.7.1
       webpack: 5.70.0_webpack-cli@4.9.2
@@ -3492,13 +3492,6 @@ packages:
       string-convert: 0.2.1
     dev: false
 
-  /json5/1.0.1:
-    resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.5
-    dev: true
-
   /json5/2.2.0:
     resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
     engines: {node: '>=6'}
@@ -3529,15 +3522,6 @@ packages:
   /loader-runner/4.2.0:
     resolution: {integrity: sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==}
     engines: {node: '>=6.11.5'}
-    dev: true
-
-  /loader-utils/1.4.0:
-    resolution: {integrity: sha512-qH0WSMBtn/oHuwjy/NucEgbx5dbxxnxup9s4PVXJUDHZBQY+s0NWA9rJf53RBnQZxfch7euUui7hpoAPvALZdA==}
-    engines: {node: '>=4.0.0'}
-    dependencies:
-      big.js: 5.2.2
-      emojis-list: 3.0.0
-      json5: 1.0.1
     dev: true
 
   /loader-utils/2.0.0:
