@@ -7,7 +7,7 @@ specifiers:
   '@svgr/webpack': 6.2.1
   antd: ^4.6.5
   autoprefixer: 10.4.5
-  babel-loader: 8.2.4
+  babel-loader: 8.2.5
   copy-webpack-plugin: 10.2.4
   css-loader: 6.7.1
   cssnano: 5.1.7
@@ -33,7 +33,7 @@ devDependencies:
   '@babel/preset-react': 7.16.7_@babel+core@7.17.9
   '@svgr/webpack': 6.2.1
   autoprefixer: 10.4.5_postcss@8.4.12
-  babel-loader: 8.2.4_acba72ea4bf9d339cdfcd8f55cdb7006
+  babel-loader: 8.2.5_acba72ea4bf9d339cdfcd8f55cdb7006
   copy-webpack-plugin: 10.2.4_webpack@5.72.0
   css-loader: 6.7.1_webpack@5.72.0
   cssnano: 5.1.7_postcss@8.4.12
@@ -2017,8 +2017,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader/8.2.4_acba72ea4bf9d339cdfcd8f55cdb7006:
-    resolution: {integrity: sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==}
+  /babel-loader/8.2.5_acba72ea4bf9d339cdfcd8f55cdb7006:
+    resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
       '@babel/core': ^7.0.0
