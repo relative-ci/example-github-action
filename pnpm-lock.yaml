@@ -8,7 +8,7 @@ specifiers:
   antd: ^4.6.5
   autoprefixer: 10.4.7
   babel-loader: 8.2.5
-  copy-webpack-plugin: 10.2.4
+  copy-webpack-plugin: 11.0.0
   css-loader: 6.7.1
   cssnano: 5.1.9
   file-loader: 6.2.0
@@ -34,7 +34,7 @@ devDependencies:
   '@svgr/webpack': 6.2.1
   autoprefixer: 10.4.7_postcss@8.4.14
   babel-loader: 8.2.5_qqaml4ljchhh37dxp4aoesgrby
-  copy-webpack-plugin: 10.2.4_webpack@5.72.1
+  copy-webpack-plugin: 11.0.0_webpack@5.72.1
   css-loader: 6.7.1_webpack@5.72.1
   cssnano: 5.1.9_postcss@8.4.14
   file-loader: 6.2.0_webpack@5.72.1
@@ -2030,11 +2030,6 @@ packages:
     resolution: {integrity: sha512-4ROwICNlNw/Hqa9v+rk5h22KjmzB1JGTMVKP2AKJBOCgb0yL0ASf0+YvCcLNNwquOHNX48jkeZIJ3a+oOQqKcw==}
     dev: false
 
-  /array-union/3.0.1:
-    resolution: {integrity: sha512-1OvF9IbWwaeiM9VhzYXVQacMibxpXOMYVNIvMtKRyX9SImBXpKcFr8XvFDeEslCyuH/t6KRt7HEO94AlP8Iatw==}
-    engines: {node: '>=12'}
-    dev: true
-
   /async-validator/3.5.2:
     resolution: {integrity: sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==}
     dev: false
@@ -2390,15 +2385,15 @@ packages:
       toggle-selection: 1.0.6
     dev: false
 
-  /copy-webpack-plugin/10.2.4_webpack@5.72.1:
-    resolution: {integrity: sha512-xFVltahqlsRcyyJqQbDY6EYTtyQZF9rf+JPjwHObLdPFMEISqkFkr7mFoVOC6BfYS/dNThyoQKvziugm+OnwBg==}
-    engines: {node: '>= 12.20.0'}
+  /copy-webpack-plugin/11.0.0_webpack@5.72.1:
+    resolution: {integrity: sha512-fX2MWpamkW0hZxMEg0+mYnA40LTosOSa5TqZ9GYIBzyJa9C3QUaMPSE2xAi/buNr8u89SfD9wHSQVBzrRa/SOQ==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
       webpack: ^5.1.0
     dependencies:
-      fast-glob: 3.2.7
+      fast-glob: 3.2.11
       glob-parent: 6.0.2
-      globby: 12.2.0
+      globby: 13.1.1
       normalize-path: 3.0.0
       schema-utils: 4.0.0
       serialize-javascript: 6.0.0
@@ -2854,9 +2849,9 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.7:
-    resolution: {integrity: sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==}
-    engines: {node: '>=8'}
+  /fast-glob/3.2.11:
+    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+    engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
       '@nodelib/fs.walk': 1.2.8
@@ -3032,13 +3027,12 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /globby/12.2.0:
-    resolution: {integrity: sha512-wiSuFQLZ+urS9x2gGPl1H5drc5twabmm4m2gTR27XDFyjUHJUNsS8o/2aKyIF6IoBaR630atdher0XJ5g6OMmA==}
+  /globby/13.1.1:
+    resolution: {integrity: sha512-XMzoDZbGZ37tufiv7g0N4F/zp3zkwdFtVbV3EHsVl1KQr4RPLfNoT068/97RPshz2J5xYNEjLKKBKaGHifBd3Q==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
-      array-union: 3.0.1
       dir-glob: 3.0.1
-      fast-glob: 3.2.7
+      fast-glob: 3.2.11
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 4.0.0
