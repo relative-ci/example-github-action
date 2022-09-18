@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-react': 7.18.6
   '@svgr/webpack': 6.3.1
   antd: ^4.6.5
-  autoprefixer: 10.4.8
+  autoprefixer: 10.4.11
   babel-loader: 8.2.5
   copy-webpack-plugin: 11.0.0
   css-loader: 6.7.1
@@ -32,7 +32,7 @@ devDependencies:
   '@babel/preset-env': 7.19.1_@babel+core@7.19.1
   '@babel/preset-react': 7.18.6_@babel+core@7.19.1
   '@svgr/webpack': 6.3.1
-  autoprefixer: 10.4.8_postcss@8.4.16
+  autoprefixer: 10.4.11_postcss@8.4.16
   babel-loader: 8.2.5_rhsdbzevgb5tizdhlla5jsbgyu
   copy-webpack-plugin: 11.0.0_webpack@5.74.0
   css-loader: 6.7.1_webpack@5.74.0
@@ -2011,15 +2011,15 @@ packages:
     resolution: {integrity: sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==}
     dev: false
 
-  /autoprefixer/10.4.8_postcss@8.4.16:
-    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
+  /autoprefixer/10.4.11_postcss@8.4.16:
+    resolution: {integrity: sha512-5lHp6DgRodxlBLSkzHOTcufWFflH1ewfy2hvFQyjrblBFlP/0Yh4O/Wrg4ow8WRlN3AAUFFLAQwX8hTptzqVHg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001373
+      caniuse-lite: 1.0.30001402
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2151,7 +2151,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001373
+      caniuse-lite: 1.0.30001402
       electron-to-chromium: 1.4.206
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
@@ -2199,13 +2199,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001373
+      caniuse-lite: 1.0.30001402
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite/1.0.30001373:
-    resolution: {integrity: sha512-pJYArGHrPp3TUqQzFYRmP/lwJlj8RCbVe3Gd3eJQkAV8SAC6b19XS9BjMvRdvaS8RMkaTN8ZhoHP6S1y8zzwEQ==}
+  /caniuse-lite/1.0.30001402:
+    resolution: {integrity: sha512-Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==}
     dev: true
 
   /chalk/2.4.2:
