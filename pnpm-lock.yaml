@@ -7,7 +7,7 @@ specifiers:
   '@svgr/webpack': 6.5.1
   antd: ^4.6.5
   autoprefixer: 10.4.13
-  babel-loader: 8.2.5
+  babel-loader: 9.0.0
   copy-webpack-plugin: 11.0.0
   css-loader: 6.7.1
   cssnano: 5.1.14
@@ -33,7 +33,7 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.19.6
   '@svgr/webpack': 6.5.1
   autoprefixer: 10.4.13_postcss@8.4.18
-  babel-loader: 8.2.5_6zc4kxld457avlfyhj3lzsljlm
+  babel-loader: 9.0.0_6zc4kxld457avlfyhj3lzsljlm
   copy-webpack-plugin: 11.0.0_webpack@5.74.0
   css-loader: 6.7.1_webpack@5.74.0
   cssnano: 5.1.14_postcss@8.4.18
@@ -2033,18 +2033,16 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader/8.2.5_6zc4kxld457avlfyhj3lzsljlm:
-    resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
-    engines: {node: '>= 8.9'}
+  /babel-loader/9.0.0_6zc4kxld457avlfyhj3lzsljlm:
+    resolution: {integrity: sha512-qVGQb0PNw/B1sGhPf0/KKsHZAPfa2Bk+JbjkW7yGjAHZyvjAULXYq0et0+/+7DL/rGYU+y8UoGPzA32NP29pVQ==}
+    engines: {node: '>= 14.15.0'}
     peerDependencies:
-      '@babel/core': ^7.0.0
-      webpack: '>=2'
+      '@babel/core': ^7.12.0
+      webpack: '>=5'
     dependencies:
       '@babel/core': 7.19.6
       find-cache-dir: 3.3.2
-      loader-utils: 2.0.0
-      make-dir: 3.1.0
-      schema-utils: 2.7.1
+      schema-utils: 4.0.0
       webpack: 5.74.0_webpack-cli@4.10.0
     dev: true
 
@@ -2307,7 +2305,7 @@ packages:
     dev: true
 
   /commondir/1.0.1:
-    resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=}
+    resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
 
   /compressible/2.0.18:
@@ -4912,15 +4910,6 @@ packages:
     dependencies:
       loose-envify: 1.4.0
     dev: false
-
-  /schema-utils/2.7.1:
-    resolution: {integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==}
-    engines: {node: '>= 8.9.0'}
-    dependencies:
-      '@types/json-schema': 7.0.9
-      ajv: 6.12.6
-      ajv-keywords: 3.5.2_ajv@6.12.6
-    dev: true
 
   /schema-utils/3.1.1:
     resolution: {integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw==}
