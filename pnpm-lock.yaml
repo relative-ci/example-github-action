@@ -15,7 +15,7 @@ specifiers:
   html-webpack-plugin: 5.5.0
   mini-css-extract-plugin: 1.0.0
   postcss: 8.4.19
-  postcss-loader: 7.0.1
+  postcss-loader: 7.0.2
   react: ^18.0.0
   react-dom: ^18.0.0
   webpack: 5.75.0
@@ -41,7 +41,7 @@ devDependencies:
   html-webpack-plugin: 5.5.0_webpack@5.75.0
   mini-css-extract-plugin: 1.0.0_webpack@5.75.0
   postcss: 8.4.19
-  postcss-loader: 7.0.1_upg3rk2kpasnbk27hkqapxaxfq
+  postcss-loader: 7.0.2_upg3rk2kpasnbk27hkqapxaxfq
   webpack: 5.75.0_webpack-cli@5.0.0
   webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
   webpack-dev-server: 4.11.1_5mhpyft47fxnqdave7meqiud7i
@@ -3070,6 +3070,8 @@ packages:
       param-case: 3.0.4
       relateurl: 0.2.7
       terser: 5.10.0
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /html-webpack-plugin/5.5.0_webpack@5.75.0:
@@ -3084,6 +3086,8 @@ packages:
       pretty-error: 4.0.0
       tapable: 2.2.1
       webpack: 5.75.0_webpack-cli@5.0.0
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /htmlparser2/6.1.0:
@@ -3839,8 +3843,8 @@ packages:
       postcss: 8.4.19
     dev: true
 
-  /postcss-loader/7.0.1_upg3rk2kpasnbk27hkqapxaxfq:
-    resolution: {integrity: sha512-VRviFEyYlLjctSM93gAZtcJJ/iSkPZ79zWbN/1fSH+NisBByEiVLqpdVDrPLVSi8DX0oJo12kL/GppTBdKVXiQ==}
+  /postcss-loader/7.0.2_upg3rk2kpasnbk27hkqapxaxfq:
+    resolution: {integrity: sha512-fUJzV/QH7NXUAqV8dWJ9Lg4aTkDCezpTS5HgJ2DvqznexTbSTxgi/dTECvTZ15BwKTtk8G/bqI/QTu2HPd3ZCg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       postcss: ^7.0.0 || ^8.0.1
@@ -3849,7 +3853,7 @@ packages:
       cosmiconfig: 7.0.1
       klona: 2.0.5
       postcss: 8.4.19
-      semver: 7.3.7
+      semver: 7.3.8
       webpack: 5.75.0_webpack-cli@5.0.0
     dev: true
 
@@ -4919,14 +4923,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver/7.3.7:
-    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver/7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
     engines: {node: '>=10'}
@@ -5187,7 +5183,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin/5.3.1_webpack@5.75.0:
+  /terser-webpack-plugin/5.3.1_acorn@8.8.0+webpack@5.75.0:
     resolution: {integrity: sha512-GvlZdT6wPQKbDNW/GDQzZFg/j4vKU96yl2q6mcUkzKOgW4gwf1Z8cZToUCrz31XHlPWH8MVb1r2tFtdDtTGJ7g==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -5207,14 +5203,34 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       source-map: 0.6.1
-      terser: 5.10.0
+      terser: 5.10.0_acorn@8.8.0
       webpack: 5.75.0_webpack-cli@5.0.0
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /terser/5.10.0:
     resolution: {integrity: sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==}
     engines: {node: '>=10'}
     hasBin: true
+    peerDependencies:
+      acorn: ^8.5.0
+    peerDependenciesMeta:
+      acorn:
+        optional: true
+    dependencies:
+      acorn: 8.8.0
+      commander: 2.20.3
+      source-map: 0.7.3
+      source-map-support: 0.5.20
+    dev: true
+
+  /terser/5.10.0_acorn@8.8.0:
+    resolution: {integrity: sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    peerDependencies:
+      acorn: ^8.5.0
     peerDependenciesMeta:
       acorn:
         optional: true
@@ -5498,7 +5514,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.1_webpack@5.75.0
+      terser-webpack-plugin: 5.3.1_acorn@8.8.0+webpack@5.75.0
       watchpack: 2.4.0
       webpack-cli: 5.0.0_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-sources: 3.2.3
