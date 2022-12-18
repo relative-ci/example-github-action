@@ -9,7 +9,7 @@ specifiers:
   autoprefixer: 10.4.13
   babel-loader: 9.1.0
   copy-webpack-plugin: 11.0.0
-  css-loader: 6.7.2
+  css-loader: 6.7.3
   cssnano: 5.1.14
   file-loader: 6.2.0
   html-webpack-plugin: 5.5.0
@@ -35,7 +35,7 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.20
   babel-loader: 9.1.0_ztqwsvkb6z73luspkai6ilstpu
   copy-webpack-plugin: 11.0.0_webpack@5.75.0
-  css-loader: 6.7.2_webpack@5.75.0
+  css-loader: 6.7.3_webpack@5.75.0
   cssnano: 5.1.14_postcss@8.4.20
   file-loader: 6.2.0_webpack@5.75.0
   html-webpack-plugin: 5.5.0_webpack@5.75.0
@@ -2432,8 +2432,8 @@ packages:
       postcss: 8.4.20
     dev: true
 
-  /css-loader/6.7.2_webpack@5.75.0:
-    resolution: {integrity: sha512-oqGbbVcBJkm8QwmnNzrFrWTnudnRZC+1eXikLJl0n4ljcfotgRifpg2a1lKy8jTrc4/d9A/ap1GFq1jDKG7J+Q==}
+  /css-loader/6.7.3_webpack@5.75.0:
+    resolution: {integrity: sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
