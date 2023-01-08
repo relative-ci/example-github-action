@@ -7,7 +7,7 @@ specifiers:
   '@svgr/webpack': 6.5.1
   antd: ^4.6.5
   autoprefixer: 10.4.13
-  babel-loader: 9.1.0
+  babel-loader: 9.1.2
   copy-webpack-plugin: 11.0.0
   css-loader: 6.7.3
   cssnano: 5.1.14
@@ -33,7 +33,7 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.20.12
   '@svgr/webpack': 6.5.1
   autoprefixer: 10.4.13_postcss@8.4.20
-  babel-loader: 9.1.0_la66t7xldg4uecmyawueag5wkm
+  babel-loader: 9.1.2_la66t7xldg4uecmyawueag5wkm
   copy-webpack-plugin: 11.0.0_webpack@5.75.0
   css-loader: 6.7.3_webpack@5.75.0
   cssnano: 5.1.14_postcss@8.4.20
@@ -2073,8 +2073,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader/9.1.0_la66t7xldg4uecmyawueag5wkm:
-    resolution: {integrity: sha512-Antt61KJPinUMwHwIIz9T5zfMgevnfZkEVWYDWlG888fgdvRRGD0JTuf/fFozQnfT+uq64sk1bmdHDy/mOEWnA==}
+  /babel-loader/9.1.2_la66t7xldg4uecmyawueag5wkm:
+    resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
@@ -3089,6 +3089,8 @@ packages:
       param-case: 3.0.4
       relateurl: 0.2.7
       terser: 5.10.0
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /html-webpack-plugin/5.5.0_webpack@5.75.0:
@@ -3103,6 +3105,8 @@ packages:
       pretty-error: 4.0.0
       tapable: 2.2.1
       webpack: 5.75.0_webpack-cli@5.0.1
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /htmlparser2/6.1.0:
@@ -5204,7 +5208,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser-webpack-plugin/5.3.1_webpack@5.75.0:
+  /terser-webpack-plugin/5.3.1_acorn@8.8.0+webpack@5.75.0:
     resolution: {integrity: sha512-GvlZdT6wPQKbDNW/GDQzZFg/j4vKU96yl2q6mcUkzKOgW4gwf1Z8cZToUCrz31XHlPWH8MVb1r2tFtdDtTGJ7g==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -5224,14 +5228,34 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       source-map: 0.6.1
-      terser: 5.10.0
+      terser: 5.10.0_acorn@8.8.0
       webpack: 5.75.0_webpack-cli@5.0.1
+    transitivePeerDependencies:
+      - acorn
     dev: true
 
   /terser/5.10.0:
     resolution: {integrity: sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==}
     engines: {node: '>=10'}
     hasBin: true
+    peerDependencies:
+      acorn: ^8.5.0
+    peerDependenciesMeta:
+      acorn:
+        optional: true
+    dependencies:
+      acorn: 8.8.0
+      commander: 2.20.3
+      source-map: 0.7.3
+      source-map-support: 0.5.20
+    dev: true
+
+  /terser/5.10.0_acorn@8.8.0:
+    resolution: {integrity: sha512-AMmF99DMfEDiRJfxfY5jj5wNH/bYO09cniSqhfoyxc8sFoYIgkJy86G04UoZU5VjlpnplVu0K6Tx6E9b5+DlHA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    peerDependencies:
+      acorn: ^8.5.0
     peerDependenciesMeta:
       acorn:
         optional: true
@@ -5515,7 +5539,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.1_webpack@5.75.0
+      terser-webpack-plugin: 5.3.1_acorn@8.8.0+webpack@5.75.0
       watchpack: 2.4.0
       webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
       webpack-sources: 3.2.3
