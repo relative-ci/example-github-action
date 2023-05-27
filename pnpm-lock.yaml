@@ -52,8 +52,8 @@ devDependencies:
     specifier: 8.4.23
     version: 8.4.23
   postcss-loader:
-    specifier: 7.3.0
-    version: 7.3.0(postcss@8.4.23)(webpack@5.83.1)
+    specifier: 7.3.1
+    version: 7.3.1(postcss@8.4.23)(webpack@5.83.1)
   webpack:
     specifier: 5.83.1
     version: 5.83.1(webpack-cli@5.1.1)
@@ -3949,8 +3949,8 @@ packages:
       postcss: 8.4.23
     dev: true
 
-  /postcss-loader@7.3.0(postcss@8.4.23)(webpack@5.83.1):
-    resolution: {integrity: sha512-qLAFjvR2BFNz1H930P7mj1iuWJFjGey/nVhimfOAAQ1ZyPpcClAxP8+A55Sl8mBvM+K2a9Pjgdj10KpANWrNfw==}
+  /postcss-loader@7.3.1(postcss@8.4.23)(webpack@5.83.1):
+    resolution: {integrity: sha512-uevGt8yy2gvruNvzy8jxgYSSnyqBcA7CnS6/57qoZnUMM51XgsTqxIpWZWdHyvIyo4ov0lCgnzIbhtWwVFI8lg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       postcss: ^7.0.0 || ^8.0.1
