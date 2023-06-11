@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/relative-ci/example-cli-github-action#readme",
   "devDependencies": {
-    "@babel/core": "7.22.1",
-    "@babel/preset-env": "7.22.4",
-    "@babel/preset-react": "7.22.3",
+    "@babel/core": "7.22.5",
+    "@babel/preset-env": "7.22.5",
+    "@babel/preset-react": "7.22.5",
     "@svgr/webpack": "8.0.1",
     "autoprefixer": "10.4.14",
     "babel-loader": "9.1.2",
