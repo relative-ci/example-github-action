@@ -19,7 +19,7 @@ jobs:
 
       # Send webpack stats and build information to RelativeCI
       - name: Send webpack stats to RelativeCI
-        uses: relative-ci/agent-action@e7463bd8371d694c23123412227b0d5f38b5f111
+        uses: relative-ci/agent-action@6fc8ea737b6eb3ff2938d2c465a0d4a329897b97
         with:
           webpackStatsFile: ./artifacts/webpack-stats.json
           key: ${{ secrets.RELATIVE_CI_KEY }}
