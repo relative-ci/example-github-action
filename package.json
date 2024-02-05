@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "antd": "^4.6.5",
+    "bundle-stats-webpack-plugin": "^4.9.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   }
