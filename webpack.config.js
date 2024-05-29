@@ -18,9 +18,6 @@ module.exports = (_, { mode }) => {
     },
     resolve: {
       extensions: ['.jsx', '.js', '.json'],
-      alias: {
-        '@babel/runtime/helpers/esm': '@babel/runtime/helpers/',
-      },
     },
     module: {
       rules: [
