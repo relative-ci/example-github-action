@@ -50,8 +50,8 @@ devDependencies:
     specifier: 5.6.3
     version: 5.6.3(webpack@5.97.1)
   mini-css-extract-plugin:
-    specifier: 1.0.0
-    version: 1.0.0(webpack@5.97.1)
+    specifier: 2.9.2
+    version: 2.9.2(webpack@5.97.1)
   postcss:
     specifier: 8.4.49
     version: 8.4.49
@@ -3531,11 +3531,6 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: true
 
-  /is-plain-obj@1.1.0:
-    resolution: {integrity: sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /is-plain-obj@3.0.0:
     resolution: {integrity: sha512-gwsOE28k+23GP1B6vFl1oVh/WOzmawBrKwo5Ev6wMKzPkaXaCDIQKzLnvsA42DRlbVTWorkgTKIviAKCWkfUwA==}
     engines: {node: '>=10'}
@@ -3776,17 +3771,15 @@ packages:
     hasBin: true
     dev: true
 
-  /mini-css-extract-plugin@1.0.0(webpack@5.97.1):
-    resolution: {integrity: sha512-IsmrPv1nkdSUtFCDrAsuv5kg0k/27sLxfXqSz8vLjnbRKrNgoRdQrUNA4MppawvD+GHLkNP6L1P93Bw50ALkbg==}
-    engines: {node: '>= 10.13.0'}
+  /mini-css-extract-plugin@2.9.2(webpack@5.97.1):
+    resolution: {integrity: sha512-GJuACcS//jtq4kCtd5ii/M0SZf7OZRH+BxdqXZHaJfb8TJiVl+NgQRPwiYt2EuqeSkNydn/7vP+bcE27C5mb9w==}
+    engines: {node: '>= 12.13.0'}
     peerDependencies:
-      webpack: ^4.4.0 || ^5.0.0
+      webpack: ^5.0.0
     dependencies:
-      loader-utils: 2.0.0
-      normalize-url: 1.9.1
-      schema-utils: 3.1.1
+      schema-utils: 4.2.0
+      tapable: 2.2.1
       webpack: 5.97.1(webpack-cli@5.1.4)
-      webpack-sources: 1.4.3
     dev: true
 
   /minimalistic-assert@1.0.1:
@@ -3858,25 +3851,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /normalize-url@1.9.1:
-    resolution: {integrity: sha1-LMDWazHqIwNkWENuNiDYWVTGbDw=}
-    engines: {node: '>=4'}
-    dependencies:
-      object-assign: 4.1.1
-      prepend-http: 1.0.4
-      query-string: 4.3.4
-      sort-keys: 1.1.2
-    dev: true
-
   /nth-check@2.0.1:
     resolution: {integrity: sha512-it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==}
     dependencies:
       boolbase: 1.0.0
-    dev: true
-
-  /object-assign@4.1.1:
-    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /object-inspect@1.13.2:
@@ -4428,11 +4406,6 @@ packages:
       source-map-js: 1.2.1
     dev: true
 
-  /prepend-http@1.0.4:
-    resolution: {integrity: sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
   /pretty-error@4.0.0:
     resolution: {integrity: sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==}
     dependencies:
@@ -4462,14 +4435,6 @@ packages:
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
-    dev: true
-
-  /query-string@4.3.4:
-    resolution: {integrity: sha1-u7aTucqRXCMlFbIosaArYJBD2+s=}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      object-assign: 4.1.1
-      strict-uri-encode: 1.1.0
     dev: true
 
   /queue-microtask@1.2.3:
@@ -5364,17 +5329,6 @@ packages:
       websocket-driver: 0.7.4
     dev: true
 
-  /sort-keys@1.1.2:
-    resolution: {integrity: sha1-RBttTTRnmPG05J6JIK37oOVD+a0=}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      is-plain-obj: 1.1.0
-    dev: true
-
-  /source-list-map@2.0.1:
-    resolution: {integrity: sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==}
-    dev: true
-
   /source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -5426,11 +5380,6 @@ packages:
   /statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
-    dev: true
-
-  /strict-uri-encode@1.1.0:
-    resolution: {integrity: sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /string-convert@0.2.1:
@@ -5801,13 +5750,6 @@ packages:
     dependencies:
       clone-deep: 4.0.1
       wildcard: 2.0.0
-    dev: true
-
-  /webpack-sources@1.4.3:
-    resolution: {integrity: sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==}
-    dependencies:
-      source-list-map: 2.0.1
-      source-map: 0.6.1
     dev: true
 
   /webpack-sources@3.2.3:
