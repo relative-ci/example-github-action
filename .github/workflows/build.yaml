@@ -24,4 +24,5 @@ jobs:
           webpackStatsFile: ./artifacts/webpack-stats.json
           key: ${{ secrets.RELATIVE_CI_KEY }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          debug: true
+        env:
+          DEBUG: "relative-ci:agent"
