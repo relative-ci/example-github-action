@@ -10,6 +10,8 @@ jobs:
 
       - uses: hmarr/debug-action@v3
 
+      - run: cat $GITHUB_EVENT_PATH
+
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
