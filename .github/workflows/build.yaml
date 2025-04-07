@@ -1,12 +1,23 @@
 name: Build
 
-on: push
+on:
+  push:
+    branches:
+      - master
+  pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: hmarr/debug-action@v3
+
+      - run: cat $GITHUB_EVENT_PATH
+
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
@@ -19,8 +30,9 @@ jobs:
 
       # Send webpack stats and build information to RelativeCI
       - name: Send webpack stats to RelativeCI
-        uses: relative-ci/agent-action@v2.1.13
+        uses: relative-ci/agent-action@agent-v5
         with:
           webpackStatsFile: ./artifacts/webpack-stats.json
           key: ${{ secrets.RELATIVE_CI_KEY }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          debug: true
