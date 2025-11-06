@@ -30,3 +30,4 @@ jobs:
           key: ${{ secrets.RELATIVE_CI_KEY }}
           token: ${{ secrets.GITHUB_TOKEN }}
           debug: true
+          compress: true
