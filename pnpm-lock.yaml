@@ -47,8 +47,8 @@ devDependencies:
     specifier: 6.2.0
     version: 6.2.0(webpack@5.104.1)
   html-webpack-plugin:
-    specifier: 5.6.5
-    version: 5.6.5(webpack@5.104.1)
+    specifier: 5.6.6
+    version: 5.6.6(webpack@5.104.1)
   mini-css-extract-plugin:
     specifier: 1.0.0
     version: 1.0.0(webpack@5.104.1)
@@ -3227,8 +3227,8 @@ packages:
       terser: 5.39.0
     dev: true
 
-  /html-webpack-plugin@5.6.5(webpack@5.104.1):
-    resolution: {integrity: sha512-4xynFbKNNk+WlzXeQQ+6YYsH2g7mpfPszQZUi3ovKlj+pDmngQ7vRXjrrmGROabmKwyQkcgcX5hqfOwHbFmK5g==}
+  /html-webpack-plugin@5.6.6(webpack@5.104.1):
+    resolution: {integrity: sha512-bLjW01UTrvoWTJQL5LsMRo1SypHW80FTm12OJRSnr3v6YHNhfe+1r0MYUZJMACxnCHURVnBWRwAsWs2yPU9Ezw==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
