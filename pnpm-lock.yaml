@@ -32,8 +32,8 @@ devDependencies:
     specifier: 10.4.27
     version: 10.4.27(postcss@8.5.8)
   babel-loader:
-    specifier: 10.1.0
-    version: 10.1.0(@babel/core@7.29.0)(webpack@5.105.4)
+    specifier: 10.1.1
+    version: 10.1.1(@babel/core@7.29.0)(webpack@5.105.4)
   copy-webpack-plugin:
     specifier: 14.0.0
     version: 14.0.0(webpack@5.105.4)
@@ -2196,8 +2196,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /babel-loader@10.1.0(@babel/core@7.29.0)(webpack@5.105.4):
-    resolution: {integrity: sha512-5HTUZa013O4SWEYlJDHexrqSIYkWatfA9w/ZZQa7V2nMc0dRWkfu/0pmioC7XMYm8M7Z/3+q42NWj6e+fAT0MQ==}
+  /babel-loader@10.1.1(@babel/core@7.29.0)(webpack@5.105.4):
+    resolution: {integrity: sha512-JwKSzk2kjIe7mgPK+/lyZ2QAaJcpahNAdM+hgR2HI8D0OJVkdj8Rl6J3kaLYki9pwF7P2iWnD8qVv80Lq1ABtg==}
     engines: {node: ^18.20.0 || ^20.10.0 || >=22.0.0}
     peerDependencies:
       '@babel/core': ^7.12.0 || ^8.0.0-beta.1
