@@ -20,8 +20,8 @@ devDependencies:
     specifier: 7.29.0
     version: 7.29.0
   '@babel/preset-env':
-    specifier: 7.29.3
-    version: 7.29.3(@babel/core@7.29.0)
+    specifier: 7.29.5
+    version: 7.29.5(@babel/core@7.29.0)
   '@babel/preset-react':
     specifier: 7.28.5
     version: 7.28.5(@babel/core@7.29.0)
@@ -118,11 +118,6 @@ packages:
       picocolors: 1.1.1
     dev: true
 
-  /@babel/compat-data@7.29.0:
-    resolution: {integrity: sha512-T1NCJqT/j9+cn8fvkt7jtwbLBfLC/1y1c7NtCeXFRgzGTsafi68MRv8yzkYSapBnFA6L3U2VSc02ciDzoAJhJg==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/compat-data@7.29.3:
     resolution: {integrity: sha512-LIVqM46zQWZhj17qA8wb4nW/ixr2y1Nw+r1etiAWgRM6U1IqP+LNhL1yg440jYZR72jCWcWbLWzIosH+uP1fqg==}
     engines: {node: '>=6.9.0'}
@@ -180,9 +175,9 @@ packages:
     resolution: {integrity: sha512-JYtls3hqi15fcx5GaSNL7SCTJ2MNmjrkHXg4FSpOA/grxK8KwyZ5bubHsCq8FXCkua6xhuaaBit+3b7+VZRfcA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/compat-data': 7.29.0
+      '@babel/compat-data': 7.29.3
       '@babel/helper-validator-option': 7.27.1
-      browserslist: 4.28.1
+      browserslist: 4.28.2
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: true
@@ -822,8 +817,8 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/plugin-transform-modules-systemjs@7.29.0(@babel/core@7.29.0):
-    resolution: {integrity: sha512-PrujnVFbOdUpw4UHiVwKvKRLMMic8+eC0CuNlxjsyZUiBjhFdPsewdXCkveh2KqBA9/waD0W1b4hXSOBQJezpQ==}
+  /@babel/plugin-transform-modules-systemjs@7.29.4(@babel/core@7.29.0):
+    resolution: {integrity: sha512-N7QmZ0xRZfjHOfZeQLJjwgX2zS9pdGHSVl/cjSGlo4dXMqvurfxXDMKY4RqEKzPozV78VMcd0lxyG13mlbKc4w==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1191,8 +1186,8 @@ packages:
       '@babel/helper-plugin-utils': 7.28.6
     dev: true
 
-  /@babel/preset-env@7.29.3(@babel/core@7.29.0):
-    resolution: {integrity: sha512-ySZypNLAIH1ClygLDQzVMoGQRViATnkHkYYV6TcNDz+8+jwZCdsguGvsb3EY5d9wyWyhmF1iSuFM0Yh5XPnqSA==}
+  /@babel/preset-env@7.29.5(@babel/core@7.29.0):
+    resolution: {integrity: sha512-/69t2aEzGKHD76DyLbHysF/QH2LJOB8iFnYO37unDTKBTubzcMRv0f3H5EiN1Q6ajOd/eB7dAInF0qdFVS06kA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1237,7 +1232,7 @@ packages:
       '@babel/plugin-transform-member-expression-literals': 7.27.1(@babel/core@7.29.0)
       '@babel/plugin-transform-modules-amd': 7.27.1(@babel/core@7.29.0)
       '@babel/plugin-transform-modules-commonjs': 7.28.6(@babel/core@7.29.0)
-      '@babel/plugin-transform-modules-systemjs': 7.29.0(@babel/core@7.29.0)
+      '@babel/plugin-transform-modules-systemjs': 7.29.4(@babel/core@7.29.0)
       '@babel/plugin-transform-modules-umd': 7.27.1(@babel/core@7.29.0)
       '@babel/plugin-transform-named-capturing-groups-regex': 7.29.0(@babel/core@7.29.0)
       '@babel/plugin-transform-new-target': 7.27.1(@babel/core@7.29.0)
@@ -1681,7 +1676,7 @@ packages:
     dependencies:
       '@babel/core': 7.29.0
       '@babel/plugin-transform-react-constant-elements': 7.21.3(@babel/core@7.29.0)
-      '@babel/preset-env': 7.29.3(@babel/core@7.29.0)
+      '@babel/preset-env': 7.29.5(@babel/core@7.29.0)
       '@babel/preset-react': 7.28.5(@babel/core@7.29.0)
       '@babel/preset-typescript': 7.21.0(@babel/core@7.29.0)
       '@svgr/core': 8.1.0
@@ -2187,11 +2182,6 @@ packages:
     hasBin: true
     dev: true
 
-  /baseline-browser-mapping@2.9.7:
-    resolution: {integrity: sha512-k9xFKplee6KIio3IDbwj+uaCLpqzOwakOgmqzPezM0sFJlFKcg30vk2wOiAJtkTSfx0SSQDSe8q+mWA/fSH5Zg==}
-    hasBin: true
-    dev: true
-
   /batch@0.6.1:
     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}
     dev: true
@@ -2241,18 +2231,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
-    dev: true
-
-  /browserslist@4.28.1:
-    resolution: {integrity: sha512-ZC5Bd0LgJXgwGqUknZY/vkUQ04r8NXnJZ3yYi4vDmSiZmC/pdSN0NbNRPxZpbtO4uAfDUAFffO8IZoM3Gj8IkA==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      baseline-browser-mapping: 2.9.7
-      caniuse-lite: 1.0.30001775
-      electron-to-chromium: 1.5.267
-      node-releases: 2.0.27
-      update-browserslist-db: 1.2.2(browserslist@4.28.1)
     dev: true
 
   /browserslist@4.28.2:
@@ -2339,10 +2317,6 @@ packages:
       caniuse-lite: 1.0.30001788
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
-    dev: true
-
-  /caniuse-lite@1.0.30001775:
-    resolution: {integrity: sha512-s3Qv7Lht9zbVKE9XoTyRG6wVDCKdtOFIjBGg3+Yhn6JaytuNKPIjBMTMIY1AnOH3seL5mvF+x33oGAyK3hVt3A==}
     dev: true
 
   /caniuse-lite@1.0.30001788:
@@ -2880,10 +2854,6 @@ packages:
 
   /ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
-    dev: true
-
-  /electron-to-chromium@1.5.267:
-    resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
     dev: true
 
   /electron-to-chromium@1.5.340:
@@ -3824,10 +3794,6 @@ packages:
     dependencies:
       lower-case: 2.0.2
       tslib: 2.8.1
-    dev: true
-
-  /node-releases@2.0.27:
-    resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
     dev: true
 
   /node-releases@2.0.37:
@@ -5637,17 +5603,6 @@ packages:
   /unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
-    dev: true
-
-  /update-browserslist-db@1.2.2(browserslist@4.28.1):
-    resolution: {integrity: sha512-E85pfNzMQ9jpKkA7+TJAi4TJN+tBCuWh5rUcS/sv6cFi+1q9LYDwDI5dpUL0u/73EElyQ8d3TEaeW4sPedBqYA==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.28.1
-      escalade: 3.2.0
-      picocolors: 1.1.1
     dev: true
 
   /update-browserslist-db@1.2.3(browserslist@4.28.2):
