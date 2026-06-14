@@ -63,10 +63,10 @@ devDependencies:
     version: 5.107.2(cssnano@8.0.2)(postcss@8.5.15)(webpack-cli@7.0.3)
   webpack-cli:
     specifier: 7.0.3
-    version: 7.0.3(webpack-dev-server@5.2.4)(webpack@5.107.2)
+    version: 7.0.3(webpack-dev-server@5.2.5)(webpack@5.107.2)
   webpack-dev-server:
-    specifier: 5.2.4
-    version: 5.2.4(webpack-cli@7.0.3)(webpack@5.107.2)
+    specifier: 5.2.5
+    version: 5.2.5(webpack-cli@7.0.3)(webpack@5.107.2)
 
 packages:
 
@@ -5694,7 +5694,7 @@ packages:
       minimalistic-assert: 1.0.1
     dev: true
 
-  /webpack-cli@7.0.3(webpack-dev-server@5.2.4)(webpack@5.107.2):
+  /webpack-cli@7.0.3(webpack-dev-server@5.2.5)(webpack@5.107.2):
     resolution: {integrity: sha512-2E2C6A1e2El7791zQgTH7LPIuwLjRliow9OHS/qlJc9pwhZlCoL/uiwqd/1WSlXT83wJfmfDbkcqHXuXoPJZ3g==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -5716,7 +5716,7 @@ packages:
       interpret: 3.1.1
       rechoir: 0.8.0
       webpack: 5.107.2(cssnano@8.0.2)(postcss@8.5.15)(webpack-cli@7.0.3)
-      webpack-dev-server: 5.2.4(webpack-cli@7.0.3)(webpack@5.107.2)
+      webpack-dev-server: 5.2.5(webpack-cli@7.0.3)(webpack@5.107.2)
       webpack-merge: 6.0.1
     dev: true
 
@@ -5738,8 +5738,8 @@ packages:
       webpack: 5.107.2(cssnano@8.0.2)(postcss@8.5.15)(webpack-cli@7.0.3)
     dev: true
 
-  /webpack-dev-server@5.2.4(webpack-cli@7.0.3)(webpack@5.107.2):
-    resolution: {integrity: sha512-GqDPGZN9bRqKBTkp4aWkobDDHMsrXKoGSdOH56smIri8qR0JG8gfL8/v/f/OZR3/OKXjG8uwJbFVhKm/FNU/UA==}
+  /webpack-dev-server@5.2.5(webpack-cli@7.0.3)(webpack@5.107.2):
+    resolution: {integrity: sha512-4wZtCquSuv9CKX8oybo+mqxtxZqWz47uM1Ch94lxowBztOhWCbhqvRbfC/mODOwxgV2brY+JGZpHq58/SuVFYg==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     peerDependencies:
@@ -5778,7 +5778,7 @@ packages:
       sockjs: 0.3.24
       spdy: 4.0.2
       webpack: 5.107.2(cssnano@8.0.2)(postcss@8.5.15)(webpack-cli@7.0.3)
-      webpack-cli: 7.0.3(webpack-dev-server@5.2.4)(webpack@5.107.2)
+      webpack-cli: 7.0.3(webpack-dev-server@5.2.5)(webpack@5.107.2)
       webpack-dev-middleware: 7.4.2(webpack@5.107.2)
       ws: 8.18.0
     transitivePeerDependencies:
@@ -5841,7 +5841,7 @@ packages:
       tapable: 2.3.3
       terser-webpack-plugin: 5.6.0(cssnano@8.0.2)(postcss@8.5.15)(webpack@5.107.2)
       watchpack: 2.5.1
-      webpack-cli: 7.0.3(webpack-dev-server@5.2.4)(webpack@5.107.2)
+      webpack-cli: 7.0.3(webpack-dev-server@5.2.5)(webpack@5.107.2)
       webpack-sources: 3.5.0
     transitivePeerDependencies:
       - '@minify-html/node'
