@@ -47,8 +47,8 @@ devDependencies:
     specifier: 6.2.0
     version: 6.2.0(webpack@5.108.4)
   html-webpack-plugin:
-    specifier: 5.6.7
-    version: 5.6.7(webpack@5.108.4)
+    specifier: 5.6.8
+    version: 5.6.8(webpack@5.108.4)
   mini-css-extract-plugin:
     specifier: 1.0.0
     version: 1.0.0(webpack@5.108.4)
@@ -4453,11 +4453,11 @@ packages:
       terser: 5.39.0
     dev: true
 
-  /html-webpack-plugin@5.6.7(webpack@5.108.4):
-    resolution: {integrity: sha512-md+vXtdCAe60s1k6AU3dUyMJnDxUyQAwfwPKoLisvgUF1IXjtlLsk2se54+qfL9Mdm26bbwvjJybpNx48NKRLw==}
+  /html-webpack-plugin@5.6.8(webpack@5.108.4):
+    resolution: {integrity: sha512-MZmKQcTnhEh1SPSyMiEytIeDZDUoBZVorNHivQGXMASHf/BSGGOrKa2xQ5bGx3TCe1n109ecCt+cpww7wwWhKA==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
-      '@rspack/core': 0.x || 1.x
+      '@rspack/core': 0.x || 1.x || 2.x
       webpack: ^5.20.0
     peerDependenciesMeta:
       '@rspack/core':
@@ -4469,7 +4469,7 @@ packages:
       html-minifier-terser: 6.1.0
       lodash: 4.17.21
       pretty-error: 4.0.0
-      tapable: 2.3.0
+      tapable: 2.3.3
       webpack: 5.108.4(cssnano@8.0.2)(postcss@8.5.20)(webpack-cli@7.2.1)
     dev: true
 
@@ -6659,11 +6659,6 @@ packages:
       csso: 5.0.5
       picocolors: 1.1.1
       sax: 1.5.0
-    dev: true
-
-  /tapable@2.3.0:
-    resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
-    engines: {node: '>=6'}
     dev: true
 
   /tapable@2.3.3:
