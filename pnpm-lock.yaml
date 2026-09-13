@@ -9,10 +9,10 @@ dependencies:
     specifier: ^4.6.5
     version: 4.16.13(react-dom@19.3.0)(react@19.3.0)
   react:
-    specifier: ^19.3.0
+    specifier: ^19.0.0
     version: 19.3.0
   react-dom:
-    specifier: ^19.3.0
+    specifier: ^19.0.0
     version: 19.3.0(react@19.3.0)
 
 devDependencies:
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 8.1.0
     version: 8.1.0
   autoprefixer:
-    specifier: 10.5.5
-    version: 10.5.5(postcss@8.5.28)
+    specifier: 10.6.0
+    version: 10.6.0(postcss@8.5.28)
   babel-loader:
     specifier: 10.1.1
     version: 10.1.1(@babel/core@8.0.5)(webpack@5.110.3)
@@ -3394,8 +3394,8 @@ packages:
     resolution: {integrity: sha512-8eLCg00W9pIRZSB781UUX/H6Oskmm8xloZfr09lz5bikRpBVDlJ3hRVuxxP1SxcwsEYfJ4IU8Q19Y8/893r3rQ==}
     dev: false
 
-  /autoprefixer@10.5.5(postcss@8.5.28):
-    resolution: {integrity: sha512-uiRYvQYe/nNSzBJ7OUnd2/TZVsAdob3blml44teEpee9Cc1f4rGZFewO+JT3Wo8mgFOSzNqes4FHZn/Qz8WOuw==}
+  /autoprefixer@10.6.0(postcss@8.5.28):
+    resolution: {integrity: sha512-A26d6qs9kqGgkmImIXMYvXTzqb4Qv7AVgpY1NXzr9Y659J8qHHnLOO/zE8ewIGFMprOolAoRAQYDgNryXIJKBw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
